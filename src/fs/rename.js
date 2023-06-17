@@ -1,5 +1,4 @@
 import fs from 'fs'
-import path from 'path'
 
 // rename.js - implement function that renames file wrongFilename.txt
 // to properFilename with extension .md (if there's no file wrongFilename.txt
