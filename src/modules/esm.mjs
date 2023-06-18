@@ -1,3 +1,6 @@
+// cjsToEsm.cjs - rewrite it to it's equivalent in ECMAScript
+// notation (and rename it to esm.mjs)
+
 import path from 'node:path';
 import { release, version } from 'os';
 import { createServer as createServerHttp } from 'http';
