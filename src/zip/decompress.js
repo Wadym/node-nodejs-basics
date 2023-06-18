@@ -2,7 +2,7 @@
 // back to the fileToCompress.txt with same content as before compression
 // using zlib and Streams API
 
-import { createGzip, createGunzip } from 'node:zlib';
+import { createGunzip } from 'node:zlib';
 import { pipeline } from 'node:stream';
 import { createReadStream, createWriteStream } from 'node:fs';
 import { promisify } from 'node:util';
