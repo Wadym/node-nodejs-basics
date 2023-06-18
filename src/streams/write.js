@@ -10,7 +10,7 @@ const onFinish = util.promisify(stream.finished);
 
 const write = async () => {
     const path2file = 'src/streams/files/fileToWrite.txt';
-    const readable = process.stdin;// fs.createReadStream(path2file);
+    const readable = process.stdin;
     const writable = fs.createWriteStream(path2file);
     for await (const chunk of readable) {
         if (!writable.write(chunk)) {
